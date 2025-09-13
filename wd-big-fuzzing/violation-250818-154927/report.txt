@@ -1,0 +1,49 @@
+# Violation Report
+
+* Test Case ID: 2955
+* Detected: 18.08.25 at 15:49:27
+
+* Time to detection: 4278.869243
+* Statistics:
+Test Cases: 2956
+Inputs per test case: 200.0
+Violations: 44
+Effectiveness: 
+  Total Cls: 99.5
+  Effective Cls: 99.5
+Discarded Test Cases:
+  Speculation Filter: 38
+  Observation Filter: 2550
+  Fast Path: 321
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 0
+  Large Sample Check: 1
+  Priming Check: 0
+
+
+## Generation Properties
+* Program seed: 963736
+* Input seed: 295510
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #90
+* Hardware trace:
+ ^.^.......................^..^...........^......^^^.^........... [490]
+^.^.......................^..^....................^.^........... [6]
+^.^.......................^..^...........^.......^^.^........... [4]
+
+* Contract trace (hash): 18421110471476484564
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0xf', 'pc:0x11', 'pc:0x14', 'pc:0x18', 'pc:0x1f', 'mem:0x1caa', 'mem:0x1caa', 'pc:0x24', 'pc:0x2b', 'mem:0x778', 'mem:0x778', 'pc:0x31', 'pc:0x34', 'pc:0x37', 'pc:0x3e', 'mem:0x169c', 'pc:0x43', 'pc:0x4a', 'mem:0x1ca8', 'mem:0x1ca8', 'pc:0x4f', 'pc:0x51', 'pc:0x58', 'mem:0xd3c', 'pc:0x5d', 'pc:0x62', 'pc:0x67', 'pc:0x6b', 'pc:0x6e', 'pc:0x74', 'mem:0x90', 'mem:0x90', 'pc:0x79', 'pc:0x7b', 'pc:0x186']
+
+Input #190
+* Hardware trace:
+ ^.^^......................^.^^..............^.....^.^........... [492]
+^.^.......................^..^....................^.^........... [8]
+
+* Contract trace (hash): 18421110471476484564
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0xf', 'pc:0x11', 'pc:0x14', 'pc:0x18', 'pc:0x1f', 'mem:0x1caa', 'mem:0x1caa', 'pc:0x24', 'pc:0x2b', 'mem:0x778', 'mem:0x778', 'pc:0x31', 'pc:0x34', 'pc:0x37', 'pc:0x3e', 'mem:0x169c', 'pc:0x43', 'pc:0x4a', 'mem:0x1ca8', 'mem:0x1ca8', 'pc:0x4f', 'pc:0x51', 'pc:0x58', 'mem:0xd3c', 'pc:0x5d', 'pc:0x62', 'pc:0x67', 'pc:0x6b', 'pc:0x6e', 'pc:0x74', 'mem:0x90', 'mem:0x90', 'pc:0x79', 'pc:0x7b', 'pc:0x186']

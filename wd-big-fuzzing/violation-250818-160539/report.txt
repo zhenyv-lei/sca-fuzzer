@@ -1,0 +1,50 @@
+# Violation Report
+
+* Test Case ID: 3819
+* Detected: 18.08.25 at 16:05:39
+
+* Time to detection: 5251.275084
+* Statistics:
+Test Cases: 3820
+Inputs per test case: 200.0
+Violations: 54
+Effectiveness: 
+  Total Cls: 99.6
+  Effective Cls: 99.6
+Discarded Test Cases:
+  Speculation Filter: 54
+  Observation Filter: 3290
+  Fast Path: 416
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 1
+  Large Sample Check: 3
+  Priming Check: 0
+
+
+## Generation Properties
+* Program seed: 964600
+* Input seed: 381910
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #28
+* Hardware trace:
+ ^.........^.........^..^........^..........^.^.................. [498]
+^.........^.....................^..........^.................... [1]
+^.........^.........^...........^..........^.................... [1]
+
+* Contract trace (hash): 17173221444960223463
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0xe', 'pc:0x12', 'pc:0x16', 'pc:0x1d', 'mem:0x129c', 'pc:0x21', 'pc:0x24', 'pc:0x2b', 'mem:0xad6', 'pc:0x31', 'pc:0x37', 'mem:0x1800', 'pc:0x3b', 'pc:0x3e', 'pc:0x44', 'pc:0x46', 'pc:0x4a', 'pc:0x4e', 'pc:0x50', 'pc:0x15e', 'pc:0x160', 'pc:0x163', 'pc:0x166', 'pc:0x168', 'pc:0x16c', 'pc:0x16f', 'pc:0x173', 'pc:0x177', 'pc:0x179', 'pc:0x17b', 'pc:0x17f', 'pc:0x182', 'pc:0x185']
+
+Input #128
+* Hardware trace:
+ ^.........^.....................^..........^^^.................. [490]
+^.........^.....................^..........^^................... [6]
+^.........^.....................^..........^.................... [4]
+
+* Contract trace (hash): 17173221444960223463
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0xe', 'pc:0x12', 'pc:0x16', 'pc:0x1d', 'mem:0x129c', 'pc:0x21', 'pc:0x24', 'pc:0x2b', 'mem:0xad6', 'pc:0x31', 'pc:0x37', 'mem:0x1800', 'pc:0x3b', 'pc:0x3e', 'pc:0x44', 'pc:0x46', 'pc:0x4a', 'pc:0x4e', 'pc:0x50', 'pc:0x15e', 'pc:0x160', 'pc:0x163', 'pc:0x166', 'pc:0x168', 'pc:0x16c', 'pc:0x16f', 'pc:0x173', 'pc:0x177', 'pc:0x179', 'pc:0x17b', 'pc:0x17f', 'pc:0x182', 'pc:0x185']

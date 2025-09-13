@@ -1,0 +1,48 @@
+# Violation Report
+
+* Test Case ID: 232
+* Detected: 18.08.25 at 14:44:46
+
+* Time to detection: 398.553788
+* Statistics:
+Test Cases: 233
+Inputs per test case: 200.0
+Violations: 4
+Effectiveness: 
+  Total Cls: 100.0
+  Effective Cls: 100.0
+Discarded Test Cases:
+  Speculation Filter: 2
+  Observation Filter: 198
+  Fast Path: 28
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 0
+  Large Sample Check: 0
+  Priming Check: 0
+
+
+## Generation Properties
+* Program seed: 961013
+* Input seed: 23210
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #47
+* Hardware trace:
+ ^....................................................^^.^^^..... [499]
+^....................................................^^.^.^..... [1]
+
+* Contract trace (hash): 15018649889713267992
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0xe', 'pc:0x15', 'mem:0x1d79', 'pc:0x1a', 'pc:0x1d', 'pc:0x20', 'pc:0x22', 'pc:0x28', 'pc:0x2c', 'pc:0x2e', 'pc:0x30', 'pc:0x33', 'pc:0x36', 'pc:0x3d', 'mem:0x1d79', 'pc:0x45', 'pc:0x47', 'pc:0x124', 'pc:0x126', 'pc:0x12c', 'mem:0xe00', 'pc:0x133', 'pc:0x135', 'pc:0x138', 'pc:0x13a', 'pc:0x13c', 'pc:0x143', 'mem:0xeb9', 'mem:0xeb9', 'pc:0x147', 'pc:0x14a', 'pc:0x14e', 'pc:0x152', 'pc:0x154', 'pc:0x157', 'pc:0x159', 'pc:0x15d']
+
+Input #147
+* Hardware trace:
+ ^....................................................^^.^.^....^ [498]
+^....................................................^^.^.^..... [2]
+
+* Contract trace (hash): 15018649889713267992
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0xe', 'pc:0x15', 'mem:0x1d79', 'pc:0x1a', 'pc:0x1d', 'pc:0x20', 'pc:0x22', 'pc:0x28', 'pc:0x2c', 'pc:0x2e', 'pc:0x30', 'pc:0x33', 'pc:0x36', 'pc:0x3d', 'mem:0x1d79', 'pc:0x45', 'pc:0x47', 'pc:0x124', 'pc:0x126', 'pc:0x12c', 'mem:0xe00', 'pc:0x133', 'pc:0x135', 'pc:0x138', 'pc:0x13a', 'pc:0x13c', 'pc:0x143', 'mem:0xeb9', 'mem:0xeb9', 'pc:0x147', 'pc:0x14a', 'pc:0x14e', 'pc:0x152', 'pc:0x154', 'pc:0x157', 'pc:0x159', 'pc:0x15d']

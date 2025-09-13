@@ -1,0 +1,50 @@
+# Violation Report
+
+* Test Case ID: 2383
+* Detected: 18.08.25 at 15:29:24
+
+* Time to detection: 3075.935021
+* Statistics:
+Test Cases: 2384
+Inputs per test case: 200.0
+Violations: 33
+Effectiveness: 
+  Total Cls: 99.6
+  Effective Cls: 99.6
+Discarded Test Cases:
+  Speculation Filter: 30
+  Observation Filter: 2066
+  Fast Path: 252
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 0
+  Large Sample Check: 1
+  Priming Check: 0
+
+
+## Generation Properties
+* Program seed: 963164
+* Input seed: 238310
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #94
+* Hardware trace:
+ ^...^..^^............................^...^^.^...............^..^ [418]
+^.......^............................^...^^.^...............^..^ [43]
+^...^...^............................^...^^.^...............^..^ [39]
+
+* Contract trace (hash): 16812348982638283162
+* Contract trace (detailed): ['pc:0x8', 'pc:0xb', 'pc:0xe', 'pc:0x11', 'pc:0x18', 'mem:0xf01', 'mem:0xf01', 'pc:0x1c', 'pc:0x1f', 'pc:0x23', 'pc:0x2a', 'mem:0x1970', 'mem:0x1978', 'pc:0x30', 'pc:0x33', 'pc:0x3a', 'mem:0x1a50', 'mem:0x1a50', 'pc:0x3f', 'pc:0x43', 'pc:0x45', 'pc:0x48', 'pc:0x4e', 'mem:0xb00', 'mem:0xb08', 'pc:0x53', 'pc:0x58', 'pc:0x5f', 'mem:0x1ab0', 'mem:0x1ab0', 'pc:0x63', 'pc:0x66', 'pc:0x6d', 'mem:0xf00', 'mem:0xf08', 'pc:0x72', 'pc:0x77', 'pc:0x7b', 'pc:0x7d', 'pc:0x80', 'pc:0x86', 'mem:0x220', 'mem:0x220', 'pc:0x8b', 'pc:0x92', 'mem:0x1ffc', 'mem:0x1ffc', 'pc:0x99', 'mem:0x1ffc', 'pc:0x9f', 'pc:0xa6', 'mem:0x1ff8', 'mem:0x1ff8', 'pc:0xad', 'pc:0xb4', 'mem:0x1ff8', 'mem:0x1ff8', 'pc:0xba', 'pc:0xbe', 'pc:0xc4', 'pc:0xc8', 'pc:0xcb', 'pc:0xd2', 'mem:0x0', 'mem:0x0', 'pc:0xd8', 'pc:0xdc', 'pc:0xdf', 'pc:0xe1', 'pc:0x17b']
+
+Input #194
+* Hardware trace:
+ ^...^...^..............^.............^...^^.^...............^..^ [408]
+^...^...^............................^...^^.^...............^..^ [54]
+^.......^............................^...^^.^...............^..^ [38]
+
+* Contract trace (hash): 16812348982638283162
+* Contract trace (detailed): ['pc:0x8', 'pc:0xb', 'pc:0xe', 'pc:0x11', 'pc:0x18', 'mem:0xf01', 'mem:0xf01', 'pc:0x1c', 'pc:0x1f', 'pc:0x23', 'pc:0x2a', 'mem:0x1970', 'mem:0x1978', 'pc:0x30', 'pc:0x33', 'pc:0x3a', 'mem:0x1a50', 'mem:0x1a50', 'pc:0x3f', 'pc:0x43', 'pc:0x45', 'pc:0x48', 'pc:0x4e', 'mem:0xb00', 'mem:0xb08', 'pc:0x53', 'pc:0x58', 'pc:0x5f', 'mem:0x1ab0', 'mem:0x1ab0', 'pc:0x63', 'pc:0x66', 'pc:0x6d', 'mem:0xf00', 'mem:0xf08', 'pc:0x72', 'pc:0x77', 'pc:0x7b', 'pc:0x7d', 'pc:0x80', 'pc:0x86', 'mem:0x220', 'mem:0x220', 'pc:0x8b', 'pc:0x92', 'mem:0x1ffc', 'mem:0x1ffc', 'pc:0x99', 'mem:0x1ffc', 'pc:0x9f', 'pc:0xa6', 'mem:0x1ff8', 'mem:0x1ff8', 'pc:0xad', 'pc:0xb4', 'mem:0x1ff8', 'mem:0x1ff8', 'pc:0xba', 'pc:0xbe', 'pc:0xc4', 'pc:0xc8', 'pc:0xcb', 'pc:0xd2', 'mem:0x0', 'mem:0x0', 'pc:0xd8', 'pc:0xdc', 'pc:0xdf', 'pc:0xe1', 'pc:0x17b']

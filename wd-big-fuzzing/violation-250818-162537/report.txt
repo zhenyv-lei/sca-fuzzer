@@ -1,0 +1,49 @@
+# Violation Report
+
+* Test Case ID: 5042
+* Detected: 18.08.25 at 16:25:37
+
+* Time to detection: 6448.591915
+* Statistics:
+Test Cases: 5043
+Inputs per test case: 200.0
+Violations: 65
+Effectiveness: 
+  Total Cls: 99.7
+  Effective Cls: 99.7
+Discarded Test Cases:
+  Speculation Filter: 75
+  Observation Filter: 4340
+  Fast Path: 556
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 1
+  Large Sample Check: 4
+  Priming Check: 0
+
+
+## Generation Properties
+* Program seed: 965823
+* Input seed: 504210
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #94
+* Hardware trace:
+ ^...^^.........^^....^.............^......^..................... [491]
+^...^^.........^^....^.............^............................ [8]
+^...^^....^....^^....^.............^......^..................... [1]
+
+* Contract trace (hash): 17786529971596147946
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0x10', 'pc:0x15', 'pc:0x18', 'pc:0x1b', 'pc:0x22', 'mem:0x1410', 'mem:0x1410', 'pc:0x28', 'pc:0x2c', 'pc:0x2f', 'pc:0x33', 'pc:0x34', 'pc:0x3b', 'mem:0x1410', 'mem:0x1410', 'pc:0x3f', 'pc:0x42', 'pc:0x45', 'pc:0x47', 'pc:0x4a', 'pc:0x51', 'mem:0x100', 'mem:0x100', 'pc:0x56', 'pc:0x5a', 'pc:0x5f', 'pc:0x63', 'pc:0x6a', 'mem:0x100', 'pc:0x6e', 'pc:0x75', 'mem:0x560', 'pc:0x7a', 'pc:0x7f', 'pc:0x83', 'pc:0x85', 'pc:0x89', 'pc:0x90', 'mem:0x143', 'pc:0x94', 'pc:0x96', 'pc:0x98', 'pc:0x138', 'pc:0x13f', 'mem:0x143', 'mem:0x143', 'pc:0x143', 'pc:0x14a', 'mem:0x13c4', 'mem:0x13c4', 'pc:0x14e', 'pc:0x151', 'pc:0x156', 'pc:0x157', 'pc:0x15e', 'mem:0x8f9', 'pc:0x164', 'pc:0x166', 'pc:0x169', 'pc:0x16c', 'pc:0x16e', 'pc:0x170', 'pc:0x172', 'pc:0x177', 'pc:0x17b', 'pc:0x17e', 'pc:0x182']
+
+Input #194
+* Hardware trace:
+ ^...^^.........^^....^.............^..............^............. [494]
+^...^^.........^^....^.............^............................ [6]
+
+* Contract trace (hash): 17786529971596147946
+* Contract trace (detailed): ['pc:0x8', 'pc:0xc', 'pc:0x10', 'pc:0x15', 'pc:0x18', 'pc:0x1b', 'pc:0x22', 'mem:0x1410', 'mem:0x1410', 'pc:0x28', 'pc:0x2c', 'pc:0x2f', 'pc:0x33', 'pc:0x34', 'pc:0x3b', 'mem:0x1410', 'mem:0x1410', 'pc:0x3f', 'pc:0x42', 'pc:0x45', 'pc:0x47', 'pc:0x4a', 'pc:0x51', 'mem:0x100', 'mem:0x100', 'pc:0x56', 'pc:0x5a', 'pc:0x5f', 'pc:0x63', 'pc:0x6a', 'mem:0x100', 'pc:0x6e', 'pc:0x75', 'mem:0x560', 'pc:0x7a', 'pc:0x7f', 'pc:0x83', 'pc:0x85', 'pc:0x89', 'pc:0x90', 'mem:0x143', 'pc:0x94', 'pc:0x96', 'pc:0x98', 'pc:0x138', 'pc:0x13f', 'mem:0x143', 'mem:0x143', 'pc:0x143', 'pc:0x14a', 'mem:0x13c4', 'mem:0x13c4', 'pc:0x14e', 'pc:0x151', 'pc:0x156', 'pc:0x157', 'pc:0x15e', 'mem:0x8f9', 'pc:0x164', 'pc:0x166', 'pc:0x169', 'pc:0x16c', 'pc:0x16e', 'pc:0x170', 'pc:0x172', 'pc:0x177', 'pc:0x17b', 'pc:0x17e', 'pc:0x182']
