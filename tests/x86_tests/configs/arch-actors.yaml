@@ -1,5 +1,0 @@
-file: !include arch.yaml
-
-actors:
-  - actor2:
-      - mode: "host"

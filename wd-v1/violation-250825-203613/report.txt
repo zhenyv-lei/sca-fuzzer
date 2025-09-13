@@ -1,0 +1,52 @@
+# Violation Report
+
+* Test Case ID: 649
+* Detected: 25.08.25 at 20:36:13
+
+* Time to detection: 2730.56012
+* Statistics:
+Test Cases: 650
+Inputs per test case: 200.0
+Violations: 36
+Effectiveness: 
+  Total Cls: 99.6
+  Effective Cls: 99.6
+Discarded Test Cases:
+  Speculation Filter: 4
+  Observation Filter: 447
+  Fast Path: 158
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 0
+  Large Sample Check: 2
+  Priming Check: 1
+
+
+## Generation Properties
+* Program seed: 749
+* Input seed: 65000
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #64
+* Hardware trace:
+ ^..............^^.....................^.........^^^..^.^........ [452]
+^..............^......................^...........^..^.......... [34]
+^..............^......................^.........^^^..^.^........ [10]
+^..............^^.....................^.........^.^..^.^........ [4]
+
+* Contract trace (hash): 18040348825969067778
+* Contract trace (detailed): ['pc:0x8', 'pc:0x9', 'pc:0x10', 'mem:0x1980', 'mem:0x1980', 'pc:0x14', 'pc:0x1b', 'pc:0x1e', 'mem:0x1980', 'pc:0x20', 'pc:0x23', 'pc:0x2a', 'mem:0xca8', 'pc:0x2e', 'pc:0x32', 'pc:0x39', 'mem:0x1d50', 'pc:0x3d', 'pc:0x3f', 'pc:0x42', 'pc:0x49', 'mem:0x3c8', 'mem:0x3c8', 'pc:0x4e', 'pc:0x52', 'pc:0x59', 'mem:0x1d50', 'pc:0x60', 'pc:0x61', 'pc:0x68', 'mem:0xca8', 'pc:0x6c', 'pc:0x6e', 'pc:0x142']
+
+Input #164
+* Hardware trace:
+ ^..............^................^.....^.........^^^..^.^........ [456]
+^..............^......................^...........^..^.......... [35]
+^..............^......................^.........^^^..^.^........ [6]
+^..............^................^.....^.........^.^..^.^........ [3]
+
+* Contract trace (hash): 18040348825969067778
+* Contract trace (detailed): ['pc:0x8', 'pc:0x9', 'pc:0x10', 'mem:0x1980', 'mem:0x1980', 'pc:0x14', 'pc:0x1b', 'pc:0x1e', 'mem:0x1980', 'pc:0x20', 'pc:0x23', 'pc:0x2a', 'mem:0xca8', 'pc:0x2e', 'pc:0x32', 'pc:0x39', 'mem:0x1d50', 'pc:0x3d', 'pc:0x3f', 'pc:0x42', 'pc:0x49', 'mem:0x3c8', 'mem:0x3c8', 'pc:0x4e', 'pc:0x52', 'pc:0x59', 'mem:0x1d50', 'pc:0x60', 'pc:0x61', 'pc:0x68', 'mem:0xca8', 'pc:0x6c', 'pc:0x6e', 'pc:0x142']

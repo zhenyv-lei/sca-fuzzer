@@ -1,0 +1,48 @@
+# Violation Report
+
+* Test Case ID: 596
+* Detected: 21.08.25 at 15:38:54
+
+* Time to detection: 2412.882161
+* Statistics:
+Test Cases: 597
+Inputs per test case: 200.0
+Violations: 32
+Effectiveness: 
+  Total Cls: 99.6
+  Effective Cls: 99.6
+Discarded Test Cases:
+  Speculation Filter: 9
+  Observation Filter: 409
+  Fast Path: 141
+  Max Nesting Check: 0
+  Tainting Check: 0
+  Early Priming Check: 1
+  Large Sample Check: 3
+  Priming Check: 0
+
+
+## Generation Properties
+* Program seed: 696
+* Input seed: 59700
+* Faulty page properties:
+  - Actor main:
+    * PTE: 
+
+## Counterexample Inputs
+
+Input #35
+* Hardware trace:
+ ^^....................^.........^.............^.^..^^........... [498]
+^^....................^.........^...............^..^^........... [2]
+
+* Contract trace (hash): 17882465776609388004
+* Contract trace (detailed): ['pc:0x8', 'pc:0xf', 'mem:0x1835', 'pc:0x13', 'pc:0x16', 'pc:0x19', 'pc:0x1b', 'pc:0x1d', 'pc:0x1f', 'pc:0xd2', 'pc:0xd9', 'mem:0x15a0', 'mem:0x15a0', 'pc:0xde', 'pc:0xe4', 'pc:0xeb', 'mem:0x15a0', 'pc:0xf1', 'pc:0xf8', 'mem:0x1cf9', 'pc:0xfc', 'pc:0xff', 'pc:0x102', 'pc:0x109', 'mem:0x70', 'mem:0x70', 'pc:0x10e', 'pc:0x115', 'mem:0x1c00', 'pc:0x119', 'pc:0x11d', 'pc:0x121']
+
+Input #135
+* Hardware trace:
+ ^^.........^..........^.........^...............^..^^........... [496]
+^^....................^.........^...............^..^^........... [4]
+
+* Contract trace (hash): 17882465776609388004
+* Contract trace (detailed): ['pc:0x8', 'pc:0xf', 'mem:0x1835', 'pc:0x13', 'pc:0x16', 'pc:0x19', 'pc:0x1b', 'pc:0x1d', 'pc:0x1f', 'pc:0xd2', 'pc:0xd9', 'mem:0x15a0', 'mem:0x15a0', 'pc:0xde', 'pc:0xe4', 'pc:0xeb', 'mem:0x15a0', 'pc:0xf1', 'pc:0xf8', 'mem:0x1cf9', 'pc:0xfc', 'pc:0xff', 'pc:0x102', 'pc:0x109', 'mem:0x70', 'mem:0x70', 'pc:0x10e', 'pc:0x115', 'mem:0x1c00', 'pc:0x119', 'pc:0x11d', 'pc:0x121']
